@@ -2,7 +2,7 @@
 <br><br>
 ## Overview
 <br><br>
-This Jupyter notebook (`stock_price_prediction.ipynb`) focuses on training an LSTM model for predicting the stock prices of Google. The process involves comprehensive data exploration, visualization, and preprocessing to ensure the robustness of the model.
+This Jupyter notebook (`Stock_Price_Prediction.ipynb`) focuses on training an LSTM model for predicting the stock prices of Google. The process involves comprehensive data exploration, visualization, and preprocessing to ensure the robustness of the model.
 <br><br>
 ## Contents
 <br><br>
@@ -15,6 +15,7 @@ This Jupyter notebook (`stock_price_prediction.ipynb`) focuses on training an LS
    - Explaining the rationale behind choosing specific hyperparameters like epochs, batch size, dropout, and units.
 <br><br>
    ```python<br>
+   # best = fmin(fn=objective, space=space, algo=tpe.suggest, max_evals=50, verbose=1)
    # (Refer to the notebook for detailed implementation)
    ```
 <br><br>
