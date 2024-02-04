@@ -15,8 +15,7 @@ This Jupyter notebook (`stock_price_prediction.ipynb`) focuses on training an LS
    - Explaining the rationale behind choosing specific hyperparameters like epochs, batch size, dropout, and units.
 <br><br>
    ```python<br>
-   # Example hyperparameter tuning code using hyperopt<br>
-   # (Refer to the notebook for detailed implementation)<br>
+   # (Refer to the notebook for detailed implementation)
    ```
 <br><br>
 3. **LSTM Model Training:**<br>
@@ -24,7 +23,7 @@ This Jupyter notebook (`stock_price_prediction.ipynb`) focuses on training an LS
    - Training the model to achieve the best possible performance.
 <br><br>
    ```python<br>
-   # (Refer to the notebook for detailed implementation)<br>
+   # (Refer to the notebook for detailed implementation)
    ```
 <br><br>
 4. **Model Evaluation:**<br>
@@ -35,7 +34,7 @@ This Jupyter notebook (`stock_price_prediction.ipynb`) focuses on training an LS
    - Applying the same preprocessing steps used during model training before predicting on live data.
 <br><br>
    ```python<br>
-   # (Refer to the notebook for detailed implementation)<br>
+   # (Refer to the notebook for detailed implementation)
    ```
 <br><br>
 ## Instructions for Use
