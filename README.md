@@ -24,9 +24,9 @@ This Jupyter notebook (`Stock_Price_Prediction.ipynb`) focuses on training an LS
    - Training the model to achieve the best possible performance.
 <br><br>
    ```python<br>
-regressor.compile(optimizer='adam',loss='mean_squared_error')
-regressor.fit(X_train,y_train,epochs=77,batch_size=16)
-# (Refer to the notebook for detailed implementation)
+      regressor.compile(optimizer='adam',loss='mean_squared_error')
+      regressor.fit(X_train,y_train,epochs=77,batch_size=16)
+      # (Refer to the notebook for detailed implementation)
    ```
 <br><br>
 4. **Model Evaluation:**<br>
@@ -37,8 +37,8 @@ regressor.fit(X_train,y_train,epochs=77,batch_size=16)
    - Applying the same preprocessing steps used during model training before predicting on live data.
 <br><br>
    ```python<br>
-df_real_time = get_stock_data('GOOGL', 'YOUR_API_KEY')
-# (Refer to the notebook for detailed implementation)
+      df_real_time = get_stock_data('GOOGL', 'YOUR_API_KEY')
+      # (Refer to the notebook for detailed implementation)
    ```
 <br><br>
 ## Instructions for Use
