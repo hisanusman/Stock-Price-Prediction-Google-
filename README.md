@@ -15,8 +15,8 @@ This Jupyter notebook (`Stock_Price_Prediction.ipynb`) focuses on training an LS
    - Explaining the rationale behind choosing specific hyperparameters like epochs, batch size, dropout, and units.
 <br><br>
    ```python<br>
-best = fmin(fn=objective, space=space, algo=tpe.suggest, max_evals=50, verbose=1)
-# (Refer to the notebook for detailed implementation)
+      best = fmin(fn=objective, space=space, algo=tpe.suggest, max_evals=50, verbose=1)
+      # (Refer to the notebook for detailed implementation)
    ```
 <br><br>
 3. **LSTM Model Training:**<br>
