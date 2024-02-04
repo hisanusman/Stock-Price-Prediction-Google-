@@ -24,6 +24,8 @@ This Jupyter notebook (`Stock_Price_Prediction.ipynb`) focuses on training an LS
    - Training the model to achieve the best possible performance.
 <br><br>
    ```python<br>
+   #regressor.compile(optimizer='adam',loss='mean_squared_error')
+   # regressor.fit(X_train,y_train,epochs=77,batch_size=16)
    # (Refer to the notebook for detailed implementation)
    ```
 <br><br>
